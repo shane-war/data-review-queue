@@ -79,3 +79,7 @@ Real concurrent connections compete for one task; only one succeeds. Tests also 
 This newly authored portfolio example is inspired by data-operations queue design experience. No employer source, business-specific ranking rules, customer records, internal configuration, or original history is included.
 
 The queue has no identity provider, lease heartbeat, starvation prevention, payload search, or production monitoring. SQLite serializes writers; no distributed throughput claim is made. See [design notes](docs/design.md) and [verification](docs/verification.md).
+
+## License
+
+[MIT License](LICENSE) — Copyright (c) 2026 Shane Warnakula.
